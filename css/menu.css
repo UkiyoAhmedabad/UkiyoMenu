@@ -113,3 +113,23 @@ nav.nav-link:hover {
 .MenuDropdown:hover .dropdown-content {
     display: block;
 }
+
+@media (max-width: 576px) {
+    .Logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .Name {
+        height: 60px;
+        width: 180px;
+    }
+
+    .nav-link {
+        font-size: 1rem !important;
+    }
+
+    .card {
+        width: 50%;
+    }
+}
